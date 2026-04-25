@@ -1,0 +1,17 @@
+[workspace]
+edition = "2024"
+resolver = "3"
+
+members = [
+    "index_collections",
+    "ppb_cdcl2",
+    "solve_pb",
+]
+
+[profile.dev]
+opt-level = 3
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1

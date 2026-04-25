@@ -1,0 +1,11 @@
+[package]
+name = "ppb_cdcl2"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+either = {package="either", version="1"}
+num = {package = "num", version = "0.4"}
+ordered_float = {package="ordered-float", version="4"}
+fxhash = {package = "fxhash", version="0.2"}
+index_collections = {path = "../index_collections"}

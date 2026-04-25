@@ -1,0 +1,12 @@
+[package]
+name = "solve_pb"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+either = {package="either", version="1"}
+num = {package = "num", version = "0.4"}
+nom = {package = "nom", version = "8"}
+thiserror = {package = "thiserror", version = "2"}
+statrs = {package = "statrs", version = "0.18"}
+ppb_cdcl2 = {package="ppb_cdcl2", path="../ppb_cdcl2"}
